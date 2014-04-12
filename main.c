@@ -24,7 +24,7 @@ int main(void)
  
     scanf("%f", &n3);
 
-    printf("Digite o número de faltas: ");
+    printf("Digite o numero de faltas: ");
  
     scanf("%i", &nf);
  
@@ -34,15 +34,15 @@ int main(void)
  
     if(media>=7 && nf<=5)
  
- {   //não estou conseguindo mudar a cor do texto mesmo com a função cprintf
+ {   //nao estou conseguindo mudar a cor do texto mesmo com a funcao cprintf
      // textcolor(BLUE);
-        printf("Parabéns, você foi APROVADO!!!");
+        printf("Parabens, voce foi APROVADO!!!");
  }
 
         else {
 
              // textcolor(RED);
-             printf("Estude mais, você está REPROVADO!");
+             printf("Estude mais, voce esta� REPROVADO!");
  
              }
 getch();
