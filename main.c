@@ -11,6 +11,7 @@ int main(void)
     int media, nf;
     
     setlocale(LC_ALL,"");
+    
     printf("Digite a primeira nota: ");
  
     scanf("%f", &n1);
@@ -23,7 +24,7 @@ int main(void)
  
     scanf("%f", &n3);
 
-    printf("Digite o número de faltas: ");
+    printf("Digite o nÃºmero de faltas: ");
  
     scanf("%i", &nf);
  
@@ -33,15 +34,15 @@ int main(void)
  
     if(media>=6 && nf<=5)
  
- {   //não estou conseguindo mudar a cor do texto mesmo com a função cprintf
+ {   //nÃ£o estou conseguindo mudar a cor do texto mesmo com a funÃ§Ã£o cprintf
      // textcolor(BLUE);
-        printf("Parabéns, você foi APROVADO!!!");
+        printf("ParabÃ©ns, vocÃª foi APROVADO!!!");
  }
 
         else {
 
              // textcolor(RED);
-             printf("Estude mais, você está REPROVADO!");
+             printf("Estude mais, vocÃª estÃ¡ REPROVADO!");
  
              }
 getch();
