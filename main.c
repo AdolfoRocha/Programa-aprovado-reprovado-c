@@ -33,6 +33,7 @@ float n1,n2,n3;
   if(media>=6 && nf<=5)
   {           
               
+              //não estou conseguindo mudar a cor do texto mesmo com a função cprintf
               
               // textcolor(BLUE);
         printf("Parabéns, você foi APROVADO!!!");
