@@ -1,59 +1,54 @@
-[Project]
-FileName=..\..\..\..\..\Dev-Cpp\exercicios.dev
-Name=exercicios
-UnitCount=1
-Type=1
-Ver=1
-ObjFiles=
-Includes=
-Libs=
-PrivateResource=
-ResourceIncludes=
-MakeIncludes=
-Compiler=
-CppCompiler=
-Linker=
-IsCpp=0
-Icon=
-ExeOutput=
-ObjectOutput=
-OverrideOutput=0
-OverrideOutputName=
-HostApplication=
-Folders=
-CommandLine=
-UseCustomMakefile=0
-CustomMakefile=
-IncludeVersionInfo=0
-SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <locale.h>
+#include <math.h>
 
-[Unit1]
-FileName=..\..\..\..\..\Dev-Cpp\main.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
 
-[VersionInfo]
-Major=0
-Minor=1
-Release=1
-Build=1
-LanguageID=1033
-CharsetID=1252
-CompanyName=
-FileVersion=
-FileDescription=Developed using the Dev-C++ IDE
-InternalName=
-LegalCopyright=
-LegalTrademarks=
-OriginalFilename=
-ProductName=
-ProductVersion=
-AutoIncBuildNr=0
+
+
+int main(void) 
+{
+      
+
+float n1,n2,n3;
+  int media, nf;
+  
+  setlocale(LC_ALL,"");
+  
+  printf("Digite a primeira nota: ");
+  scanf("%f", &n1);
+  
+  printf("Digite a segunda nota: ");
+  scanf("%f", &n2);
+  
+  printf("Digite a terceira nota: ");
+  scanf("%f", &n3);
+  
+  printf("Digite o número de faltas: ");
+  scanf("%i", &nf);
+  
+  media = (n1+n2+n3)/3;
+  
+  if(media>=6 && nf<=5)
+  {           
+              
+              
+              // textcolor(BLUE);
+        printf("Parabéns, você foi APROVADO!!!");
+               
+  }
+  
+  else {
+             
+            // textcolor(RED);
+       printf("Estude mais, você está REPROVADO!");
+       }
+  
+  getch();
+  
+ 
+  
+   return 0; 
+}
 
